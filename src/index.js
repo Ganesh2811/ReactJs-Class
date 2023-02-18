@@ -15,6 +15,8 @@ import Product from "./component/Product";
 import About from "./component/About";
 import Single from "./component/Single";
 import Filterpro from './component/Filterpro'
+import Add from "./component/Add";
+import Show from "./component/Show";
   const router1 =  createBrowserRouter([
     {
 
@@ -40,27 +42,35 @@ import Filterpro from './component/Filterpro'
     {
       path: "marks",
       element: <Marks/>
+    },
+    {
+      path: "product",
+      element: <Product/>
   },
   {
-    path: "product",
-    element: <Product/>
-},
-{
-  path: "Home",
-  element: <Home/>
-},
-{
-  path: "about",
-  element: <About/>
-},
-{
-  path: "single/:productId",
-  element: <Single/>
-},
-{
-  path: "filter-product",
-  element: <Filterpro/>
-}
+    path: "Home",
+    element: <Home/>
+  },
+  {
+    path: "about",
+    element: <About/>
+  },
+  {
+    path: "single/:productId",
+    element: <Single/>
+  },
+  {
+    path: "filter-product",
+    element: <Filterpro/>
+  },
+  {
+    path: "add",
+    element: <Add />
+  },
+  {
+    path: "show",
+    element: <Show />
+  }
 
 
       

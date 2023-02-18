@@ -24,6 +24,12 @@ export default function Header() {
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="filter-product">filter product</Link>
         </li>
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="add">Add firebase</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="show">Show firebase</Link>
+        </li>
       
       
         <li class="nav-item dropdown">
